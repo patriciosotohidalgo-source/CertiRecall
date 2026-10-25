@@ -10,7 +10,8 @@ import { calificarPregunta, desplazarFecha } from './scheduler.js';
 import {
   crearCola,
   crearColaDificil,
-  crearColaExamen
+  crearColaExamen,
+  prepararPreguntaSuelta
 } from './quiz.js';
 import { renderReporte } from './report.js';
 import {
@@ -24,6 +25,7 @@ import {
   renderSettings,
   renderSimulacro,
   renderSummary,
+  formatearTiempo,
   setActiveNav,
   setTitle
 } from './ui.js';
@@ -289,11 +291,6 @@ function iniciarTemporizadorSimulacro() {
   }, 500);
 }
 
-function formatearTiempo(segundos) {
-  const minutos = Math.floor(segundos / 60);
-  return `${String(minutos).padStart(2, '0')}:${String(segundos % 60).padStart(2, '0')}`;
-}
-
 function renderSimulacroVista() {
   if (!simulacro) iniciarSimulacro();
   if (simulacro.resultado) {
@@ -382,9 +379,8 @@ function responder(opcionCodificada) {
   renderCuestionario();
 }
 
-function guardarRespuesta() {
+function guardarRespuesta(calificacion) {
   const pregunta = sesion.cola[sesion.indice];
-  const calificacion = this.dataset.rating;
   const segundos = Math.max(1, Math.round((Date.now() - sesion.inicio) / 1000));
   const resultado = calificarPregunta(progreso, pregunta.id, calificacion);
   progreso.activity.push({
@@ -432,24 +428,10 @@ function abrirPreguntaFallada(id) {
 
   sesion = {
     ...crearSesion('dificiles'),
-    cola: [{
-      ...pregunta,
-      dia: dia.dia,
-      tema: dia.tema,
-      clase: 'repaso',
-      opcionesMezcladas: pregunta.opciones ? mezclar([...pregunta.opciones]) : undefined
-    }]
+    cola: [prepararPreguntaSuelta(pregunta, dia, 'repaso')]
   };
   location.hash = '#quiz?modo=dificiles';
   renderCuestionario();
-}
-
-function mezclar(opciones) {
-  for (let indice = opciones.length - 1; indice > 0; indice -= 1) {
-    const aleatorio = Math.floor(Math.random() * (indice + 1));
-    [opciones[indice], opciones[aleatorio]] = [opciones[aleatorio], opciones[indice]];
-  }
-  return opciones;
 }
 
 contenedor.addEventListener('click', evento => {
@@ -475,7 +457,7 @@ contenedor.addEventListener('click', evento => {
     renderCuestionario();
   }
   if (accion === 'star' && sesion) alternarFavorita();
-  if (accion === 'rate' && sesion) guardarRespuesta.call(boton);
+  if (accion === 'rate' && sesion) guardarRespuesta(boton.dataset.rating);
   if (accion === 'advance-day') avanzarDia();
   if (accion === 'export') descargarProgreso(progreso);
   if (accion === 'reset') confirmarReinicio();
@@ -485,6 +467,10 @@ contenedor.addEventListener('click', evento => {
   if (accion === 'exam-next') cambiarPreguntaSimulacro(1);
   if (accion === 'exam-back') cambiarPreguntaSimulacro(-1);
   if (accion === 'exam-finish') terminarSimulacro();
+  if (accion === 'exam-restart') {
+    simulacro = null;
+    renderSimulacroVista();
+  }
 });
 
 function alternarFavorita() {
@@ -558,6 +544,8 @@ window.addEventListener('hashchange', () => {
     if (parametros.has('dia')) diaLeccion = Number(parametros.get('dia'));
   }
   if (location.hash.split('?')[0] !== '#quiz') sesion = null;
+  // Un simulacro terminado no se vuelve a mostrar al regresar: se empieza uno nuevo.
+  if (location.hash.split('?')[0] !== '#simulacro' && simulacro?.resultado) simulacro = null;
   render();
 });
 

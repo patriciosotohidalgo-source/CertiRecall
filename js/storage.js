@@ -1,8 +1,21 @@
 const CLAVE = 'certirecall-progreso-v1';
+const CALIFICACIONES = ['otra_vez', 'dificil', 'bien', 'facil'];
+
 const fechaHoy = () => new Date().toISOString().slice(0, 10);
+
 export function progresoInicial() {
-  return { version: 1, simulatedDate: fechaHoy(), newPerDay: 6, schedules: {}, activity: [], starred: [], completedLessons: [], lastStudyDate: null };
+  return {
+    version: 1,
+    simulatedDate: fechaHoy(),
+    newPerDay: 12,
+    schedules: {},
+    activity: [],
+    starred: [],
+    completedLessons: [],
+    lastStudyDate: null
+  };
 }
+
 export function cargarProgreso() {
   try {
     const guardado = localStorage.getItem(CLAVE);
@@ -14,21 +27,80 @@ export function cargarProgreso() {
     return progresoInicial();
   }
 }
-export function guardarProgreso(progreso) { localStorage.setItem(CLAVE, JSON.stringify(progreso)); }
-export function validarProgreso(d) {
-  const calificaciones = ['otra_vez', 'dificil', 'bien', 'facil'];
-  const fechaValida = valor => typeof valor === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(valor) && !Number.isNaN(Date.parse(`${valor}T12:00:00`));
-  const registroValido = r => r && typeof r === 'object' && Number.isFinite(r.intervalo) && Number.isFinite(r.facilidad) && Number.isInteger(r.repeticiones) && fechaValida(r.proximaFecha) && Array.isArray(r.historial) && r.historial.every(h => fechaValida(h.fecha) && calificaciones.includes(h.calificacion));
-  const actividadValida = a => a && typeof a === 'object' && fechaValida(a.fecha) && typeof a.preguntaId === 'string' && typeof a.temaId === 'string' && calificaciones.includes(a.calificacion) && typeof a.acierto === 'boolean' && Number.isFinite(a.tiempoSeg);
-  return Boolean(d && typeof d === 'object' && d.version === 1 && fechaValida(d.simulatedDate) && d.schedules && typeof d.schedules === 'object' && Object.values(d.schedules).every(registroValido) && Array.isArray(d.activity) && d.activity.every(actividadValida) && Array.isArray(d.starred) && d.starred.every(x => typeof x === 'string') && Array.isArray(d.completedLessons) && d.completedLessons.every(Number.isInteger) && Number.isInteger(d.newPerDay) && d.newPerDay >= 1 && d.newPerDay <= 60);
+
+export function guardarProgreso(progreso) {
+  try {
+    localStorage.setItem(CLAVE, JSON.stringify(progreso));
+  } catch (error) {
+    // Navegación privada o almacenamiento lleno: la app sigue funcionando en memoria.
+    console.error('No se pudo guardar el progreso local:', error);
+  }
 }
+
+// Formato AAAA-MM-DD y fecha real.
+function fechaValida(valor) {
+  return typeof valor === 'string'
+    && /^\d{4}-\d{2}-\d{2}$/.test(valor)
+    && !Number.isNaN(Date.parse(`${valor}T12:00:00`));
+}
+
+// Registro de repetición espaciada de una pregunta.
+function registroValido(registro) {
+  return registro && typeof registro === 'object'
+    && Number.isFinite(registro.intervalo)
+    && Number.isFinite(registro.facilidad)
+    && Number.isInteger(registro.repeticiones)
+    && fechaValida(registro.proximaFecha)
+    && Array.isArray(registro.historial)
+    && registro.historial.every(item =>
+      fechaValida(item.fecha) && CALIFICACIONES.includes(item.calificacion));
+}
+
+// Evento del historial de actividad usado por el reporte.
+function actividadValida(actividad) {
+  return actividad && typeof actividad === 'object'
+    && fechaValida(actividad.fecha)
+    && typeof actividad.preguntaId === 'string'
+    && typeof actividad.temaId === 'string'
+    && CALIFICACIONES.includes(actividad.calificacion)
+    && typeof actividad.acierto === 'boolean'
+    && Number.isFinite(actividad.tiempoSeg);
+}
+
+export function validarProgreso(datos) {
+  return Boolean(datos && typeof datos === 'object'
+    && datos.version === 1
+    && fechaValida(datos.simulatedDate)
+    && datos.schedules && typeof datos.schedules === 'object'
+    && Object.values(datos.schedules).every(registroValido)
+    && Array.isArray(datos.activity) && datos.activity.every(actividadValida)
+    && Array.isArray(datos.starred) && datos.starred.every(id => typeof id === 'string')
+    && Array.isArray(datos.completedLessons) && datos.completedLessons.every(Number.isInteger)
+    && Number.isInteger(datos.newPerDay) && datos.newPerDay >= 1 && datos.newPerDay <= 60);
+}
+
 export function descargarProgreso(progreso) {
   const blob = new Blob([JSON.stringify(progreso, null, 2)], { type: 'application/json' });
-  const enlace = document.createElement('a'); enlace.href = URL.createObjectURL(blob); enlace.download = 'certirecall-progreso.json'; enlace.click(); URL.revokeObjectURL(enlace.href);
+  const enlace = document.createElement('a');
+  enlace.href = URL.createObjectURL(blob);
+  enlace.download = 'certirecall-progreso.json';
+  enlace.click();
+  URL.revokeObjectURL(enlace.href);
 }
+
 export async function importarProgreso(archivo) {
   const datos = JSON.parse(await archivo.text());
-  if (!validarProgreso(datos)) throw new Error('El archivo no tiene una estructura de progreso válida de CertiRecall.');
+  if (!validarProgreso(datos)) {
+    throw new Error('El archivo no tiene una estructura de progreso válida de CertiRecall.');
+  }
   return datos;
 }
-export function reiniciarProgreso() { localStorage.removeItem(CLAVE); return progresoInicial(); }
+
+export function reiniciarProgreso() {
+  try {
+    localStorage.removeItem(CLAVE);
+  } catch (error) {
+    console.error('No se pudo borrar el progreso local:', error);
+  }
+  return progresoInicial();
+}

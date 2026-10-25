@@ -7,15 +7,20 @@ export function crearCola(temario, progreso, dia, cantidadNuevas = 6) {
       { ...pregunta, dia: diaActual.dia, tema: diaActual.tema }
     ])
   ));
-  const preguntasNuevas = (temario.dias.find(item => item.dia === dia)?.preguntas || [])
-    .filter(pregunta => !progreso.schedules[pregunta.id])
-    .slice(0, cantidadNuevas)
-    .map(pregunta => ({
-      ...pregunta,
-      dia,
-      tema: temario.dias[dia - 1].tema,
-      clase: 'nueva'
-    }));
+  // El cupo es diario: descuenta las preguntas que ya se vieron por primera vez hoy.
+  const introducidasHoy = Object.values(progreso.schedules)
+    .filter(registro => registro.historial?.[0]?.fecha === progreso.simulatedDate)
+    .length;
+  const cupo = Math.max(0, cantidadNuevas - introducidasHoy);
+  // Primero las del día actual y luego las pendientes de días anteriores.
+  const diasDisponibles = temario.dias
+    .filter(item => item.dia <= dia)
+    .sort((a, b) => (b.dia === dia) - (a.dia === dia) || a.dia - b.dia);
+  const preguntasNuevas = diasDisponibles
+    .flatMap(item => item.preguntas
+      .filter(pregunta => !progreso.schedules[pregunta.id])
+      .map(pregunta => ({ ...pregunta, dia: item.dia, tema: item.tema, clase: 'nueva' })))
+    .slice(0, cupo);
   const repasos = Object.entries(progreso.schedules)
     .filter(([, registro]) => esVencida(registro, progreso.simulatedDate))
     .map(([id]) => mapa.get(id))
@@ -90,6 +95,10 @@ function prepararPregunta(pregunta) {
   if (pregunta.tipo !== 'opcion_multiple') return pregunta;
   // El orden queda guardado en el objeto de sesión entre renderizados.
   return { ...pregunta, opcionesMezcladas: mezclar([...pregunta.opciones]) };
+}
+
+export function prepararPreguntaSuelta(pregunta, dia, clase) {
+  return prepararPregunta({ ...pregunta, dia: dia.dia, tema: dia.tema, clase });
 }
 
 function mezclar(lista) {

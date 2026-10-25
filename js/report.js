@@ -42,7 +42,9 @@ export function calcularReporte(registros, temario) {
         : 0,
       conteos
     };
-  }).sort((a, b) => b.score - a.score);
+  })
+    // Los temas sin repasos van al final: sin datos no se puede medir su dificultad.
+    .sort((a, b) => Number(b.total > 0) - Number(a.total > 0) || b.score - a.score);
 
   const porFecha = registros.reduce((grupos, registro) => {
     (grupos[registro.fecha] ||= []).push(registro);
@@ -86,10 +88,14 @@ export function renderReporte({ registros, temario, demo = false }) {
   const preguntas = new Map(
     temario.dias.flatMap(dia => dia.preguntas.map(pregunta => [pregunta.id, pregunta]))
   );
-  const linePoints = informe.dias.map((dia, indice) => {
-    const x = informe.dias.length < 2 ? 50 : indice / (informe.dias.length - 1) * 100;
-    return `${x},${100 - dia.acierto}`;
-  }).join(' ');
+  // Lienzo de 300×100 para que el gráfico sea más ancho que alto.
+  const ANCHO_GRAFICO = 300;
+  const ejeX = indice => informe.dias.length < 2
+    ? ANCHO_GRAFICO / 2
+    : indice / (informe.dias.length - 1) * ANCHO_GRAFICO;
+  const linePoints = informe.dias
+    .map((dia, indice) => `${ejeX(indice)},${100 - dia.acierto}`)
+    .join(' ');
 
   const notaDemo = demo
     ? '<div class="demo-note"><span>ⓘ</span> Datos simulados con fines ilustrativos. No representan resultados reales.</div>'
@@ -104,7 +110,7 @@ export function renderReporte({ registros, temario, demo = false }) {
       </div>`;
   }
 
-  const prioridades = informe.filas.slice(0, 3);
+  const prioridades = informe.filas.filter(fila => fila.total > 0).slice(0, 3);
   const prioridadLabel = ['ALTA', 'MEDIA', 'MODERADA'];
   const tarjetaPrioridad = prioridades.map((fila, indice) => `
     <article class="priority-card priority-${indice + 1}" style="--topic:${fila.tema.color}">
@@ -133,15 +139,14 @@ export function renderReporte({ registros, temario, demo = false }) {
   }).join('');
 
   const graficoLinea = informe.dias.length > 1
-    ? `<svg class="line-chart" viewBox="0 0 100 100" role="img" aria-label="Porcentaje de acierto por día">
-        <line x1="0" y1="25" x2="100" y2="25"></line>
-        <line x1="0" y1="50" x2="100" y2="50"></line>
-        <line x1="0" y1="75" x2="100" y2="75"></line>
+    ? `<svg class="line-chart" viewBox="-22 -6 330 112" role="img" aria-label="Porcentaje de acierto por día">
+        ${[0, 50, 100].map(valor => `
+          <line x1="0" y1="${100 - valor}" x2="${ANCHO_GRAFICO}" y2="${100 - valor}"></line>
+          <text x="-5" y="${103 - valor}" text-anchor="end">${valor}%</text>`).join('')}
         <polyline points="${linePoints}"></polyline>
-        ${informe.dias.map((dia, indice) => {
-          const x = indice / (informe.dias.length - 1) * 100;
-          return `<circle cx="${x}" cy="${100 - dia.acierto}" r="1.5"><title>${dia.fecha}: ${dia.acierto}%</title></circle>`;
-        }).join('')}
+        ${informe.dias.map((dia, indice) =>
+          `<circle cx="${ejeX(indice)}" cy="${100 - dia.acierto}" r="2.4"><title>${dia.fecha}: ${dia.acierto}%</title></circle>`
+        ).join('')}
       </svg>
       <div class="chart-axis"><span>${informe.dias[0].fecha}</span><span>${informe.dias.at(-1).fecha}</span></div>`
     : '<div class="chart-empty">Necesitas al menos dos días de actividad para ver una tendencia.</div>';

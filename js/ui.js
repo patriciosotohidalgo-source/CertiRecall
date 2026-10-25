@@ -326,7 +326,10 @@ export function renderResultadoSimulacro(resultado) {
     <h2>${resultado.aciertos} de ${resultado.total} respuestas correctas</h2>
     <p>Este resultado no modifica tus repasos programados.</p>
     <div class="exam-results">${resultado.temas.map(tema => `<div><span>${tema.nombre}</span><b>${tema.aciertos}/${tema.total}</b></div>`).join('')}</div>
-    <a class="button button-dark" href="#inicio">Volver al inicio →</a></section>
+    <div class="home-actions">
+      <button class="button button-secondary" data-action="exam-restart">Nuevo simulacro ↻</button>
+      <a class="button button-dark" href="#inicio">Volver al inicio →</a>
+    </div></section>
     <section class="exam-review"><div class="section-heading"><div><span class="eyebrow">REVISIÓN FINAL</span><h3>Respuestas del simulacro</h3></div></div>
       ${resultado.revision.map((item, indice) => `<article class="panel exam-review-item ${item.acierto ? 'exam-review-correct' : 'exam-review-incorrect'}">
         <span class="eyebrow">PREGUNTA ${indice + 1} · ${escaparHTML(item.tema)}</span>
@@ -338,7 +341,7 @@ export function renderResultadoSimulacro(resultado) {
     </section>`;
 }
 
-function formatearTiempo(segundos) {
+export function formatearTiempo(segundos) {
   const minutos = Math.floor(segundos / 60);
   const resto = Math.max(0, segundos % 60);
   return `${String(minutos).padStart(2, '0')}:${String(resto).padStart(2, '0')}`;

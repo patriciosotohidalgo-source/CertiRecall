@@ -6,3 +6,8 @@
 @media(prefers-color-scheme:dark){.difficulty-basica{background:#263a2c;color:#8cc69b}.difficulty-intermedia{background:#40351f;color:#e0b866}.difficulty-avanzada{background:#442b2a;color:#e38b85}.option-button.option-correct{background:#26352c;color:#a8d4b2}.option-button.option-incorrect{background:#402a29;color:#e9a09a}.option-button.option-selected{background:#302b3d}.lesson-summary p{color:#c0c0c7}.exam-timer{background:#3c2b34;color:#e4a9c2}}
 @media(max-width:380px){.mobile-nav a{min-width:43px;font-size:7px}.concept-grid{grid-template-columns:1fr}.exam-top{gap:8px}.exam-timer{font-size:12px;padding:7px}}
 .exam-review{max-width:850px;margin:22px auto}.exam-review-item{padding:15px 18px;margin:9px 0;border-left:3px solid #d17870}.exam-review-correct{border-left-color:#55a579}.exam-review-item h4{font-size:12px;margin:4px 0}.exam-review-item p,.exam-review-item small{display:block;font-size:10px;color:var(--muted);margin:5px 0}.exam-review-item p b{color:var(--ink)}@media(prefers-color-scheme:dark){.exam-review-correct{border-left-color:#65b480}.exam-review-incorrect{border-left-color:#dd7770}}
+
+/* Gráfico de acierto: proporción ancha y etiquetas del eje Y */
+.line-chart{height:auto;aspect-ratio:330/112}
+.line-chart polyline{stroke-width:2.2;stroke-linejoin:round}
+.line-chart text{font-size:8px;fill:var(--muted)}

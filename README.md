@@ -55,7 +55,9 @@ CertiRecall/
 └── README.md
 ```
 
-`temario.json` contiene `certificacion` y `dias`; cada día declara su número, tema, lección y preguntas. La lección puede incluir conceptos, ejemplo, errores comunes y fuentes. Cada pregunta tiene un identificador único y un nivel de dificultad; las preguntas de opción múltiple incluyen opciones y respuesta correcta, y las flashcards incluyen respuesta y explicación. `historial-demo.json` es una lista de 400 eventos ficticios con `fecha`, `preguntaId`, `temaId`, `calificacion`, `acierto` y `tiempoSeg`; utiliza preguntas que existen en el temario y distribuye la misma cantidad de eventos entre los temas.
+`temario.json` contiene `certificacion` y `dias`; cada día declara su número, tema, lección y preguntas. La lección puede incluir conceptos, ejemplo, errores comunes y fuentes. Cada pregunta tiene un identificador único y un nivel de dificultad; las preguntas de opción múltiple incluyen opciones y respuesta correcta, y las flashcards incluyen respuesta y explicación. `historial-demo.json` es una lista de unos 470 eventos ficticios durante 30 días con `fecha`, `preguntaId`, `temaId`, `calificacion`, `acierto` y `tiempoSeg`. Usa preguntas que existen en el temario y simula un estudio realista: cada tema se desbloquea en orden, los temas más antiguos acumulan más repasos y el acierto mejora con el tiempo. Tool use, MCP y Agentes se diseñaron con mayor dificultad para ilustrar cómo el reporte detecta los temas que requieren refuerzo.
+
+Por defecto se presentan 12 preguntas nuevas por día (una lección completa). El cupo es diario y, si quedan preguntas sin ver de días anteriores, se incorporan después de las del día actual.
 
 La respuesta correcta aparece dos veces en cada posición (A, B, C y D) por tema en el JSON. Durante una sesión, las opciones se mezclan una sola vez y conservan el orden mientras se muestra la retroalimentación.
 
