@@ -1,0 +1,3202 @@
+[
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "modelos-mc1",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 59
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "modelos-mc6",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "modelos-fc3",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 68
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "modelos-mc4",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 26
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "modelos-fc1",
+    "temaId": "modelos",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "modelos-mc2",
+    "temaId": "modelos",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "modelos-mc7",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 23
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "modelos-fc4",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 34
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "modelos-mc5",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "modelos-fc2",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 71
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "modelos-mc3",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 25
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "modelos-mc8",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 69
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "modelos-mc1",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "modelos-mc6",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "modelos-fc3",
+    "temaId": "modelos",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 27
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "modelos-mc4",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 43
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "modelos-fc1",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "modelos-mc2",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 76
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "modelos-mc7",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "modelos-fc4",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "modelos-mc5",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "modelos-fc2",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "modelos-mc3",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 47
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "modelos-mc8",
+    "temaId": "modelos",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "modelos-mc1",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 32
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "modelos-mc6",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 70
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "modelos-fc3",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "modelos-mc4",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 52
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "modelos-fc1",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 49
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "modelos-mc2",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 53
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "modelos-mc7",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 59
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "modelos-fc4",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "modelos-mc5",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 39
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "modelos-fc2",
+    "temaId": "modelos",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 38
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "modelos-mc3",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 45
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "modelos-mc8",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 43
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "modelos-mc1",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "modelos-mc6",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 26
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "modelos-fc3",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "modelos-mc4",
+    "temaId": "modelos",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "prompting-mc2",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "prompting-mc7",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 26
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "prompting-fc4",
+    "temaId": "prompting",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "prompting-mc5",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 76
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "prompting-fc2",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 72
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "prompting-mc3",
+    "temaId": "prompting",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "prompting-mc8",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "prompting-mc1",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 32
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "prompting-mc6",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 25
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "prompting-fc3",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "prompting-mc4",
+    "temaId": "prompting",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 68
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "prompting-fc1",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "prompting-mc2",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "prompting-mc7",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "prompting-fc4",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 38
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "prompting-mc5",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 66
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "prompting-fc2",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "prompting-mc3",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "prompting-mc8",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "prompting-mc1",
+    "temaId": "prompting",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "prompting-mc6",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 36
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "prompting-fc3",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "prompting-mc4",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "prompting-fc1",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 64
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "prompting-mc2",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "prompting-mc7",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 25
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "prompting-fc4",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "prompting-mc5",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 56
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "prompting-fc2",
+    "temaId": "prompting",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 31
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "prompting-mc3",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "prompting-mc8",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 71
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "prompting-mc1",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "prompting-mc6",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "prompting-fc3",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "prompting-mc4",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 70
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "prompting-fc1",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "prompting-mc2",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "prompting-mc7",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "prompting-fc4",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 38
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "prompting-mc5",
+    "temaId": "prompting",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "messages-api-mc3",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 27
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "messages-api-mc8",
+    "temaId": "messages-api",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "messages-api-mc1",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "messages-api-mc6",
+    "temaId": "messages-api",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 22
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "messages-api-fc3",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "messages-api-mc4",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "messages-api-fc1",
+    "temaId": "messages-api",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "messages-api-mc2",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "messages-api-mc7",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 38
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "messages-api-fc4",
+    "temaId": "messages-api",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 23
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "messages-api-mc5",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 67
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "messages-api-fc2",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "messages-api-mc3",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 67
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "messages-api-mc8",
+    "temaId": "messages-api",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 36
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "messages-api-mc1",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 69
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "messages-api-mc6",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "messages-api-fc3",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "messages-api-mc4",
+    "temaId": "messages-api",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 31
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "messages-api-fc1",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "messages-api-mc2",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "messages-api-mc7",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 25
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "messages-api-fc4",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "messages-api-mc5",
+    "temaId": "messages-api",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "messages-api-fc2",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 53
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "messages-api-mc3",
+    "temaId": "messages-api",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 47
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "messages-api-mc8",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "messages-api-mc1",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 67
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "messages-api-mc6",
+    "temaId": "messages-api",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "messages-api-fc3",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "messages-api-mc4",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 45
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "messages-api-fc1",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 74
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "messages-api-mc2",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "messages-api-mc7",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 49
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "messages-api-fc4",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "messages-api-mc5",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "messages-api-fc2",
+    "temaId": "messages-api",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 70
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "messages-api-mc3",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 49
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "messages-api-mc8",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "messages-api-mc1",
+    "temaId": "messages-api",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "messages-api-mc6",
+    "temaId": "messages-api",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "tool-use-mc4",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 64
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "tool-use-fc1",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "tool-use-mc2",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 58
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "tool-use-mc7",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 31
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "tool-use-fc4",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 39
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "tool-use-mc5",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "tool-use-fc2",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "tool-use-mc3",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "tool-use-mc8",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 26
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "tool-use-mc1",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "tool-use-mc6",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 29
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "tool-use-fc3",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 34
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "tool-use-mc4",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 22
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "tool-use-fc1",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 59
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "tool-use-mc2",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 58
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "tool-use-mc7",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 35
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "tool-use-fc4",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 27
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "tool-use-mc5",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "tool-use-fc2",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 66
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "tool-use-mc3",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "tool-use-mc8",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 74
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "tool-use-mc1",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "tool-use-mc6",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "tool-use-fc3",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 35
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "tool-use-mc4",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "tool-use-fc1",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 31
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "tool-use-mc2",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 42
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "tool-use-mc7",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "tool-use-fc4",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 66
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "tool-use-mc5",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 74
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "tool-use-fc2",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "tool-use-mc3",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 58
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "tool-use-mc8",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 58
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "tool-use-mc1",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 56
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "tool-use-mc6",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "tool-use-fc3",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 69
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "tool-use-mc4",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "tool-use-fc1",
+    "temaId": "tool-use",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "tool-use-mc2",
+    "temaId": "tool-use",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 27
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "tool-use-mc7",
+    "temaId": "tool-use",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 25
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "mcp-mc5",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 29
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "mcp-fc2",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "mcp-mc3",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 39
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "mcp-mc8",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 38
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "mcp-mc1",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 70
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "mcp-mc6",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 42
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "mcp-fc3",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "mcp-mc4",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "mcp-fc1",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "mcp-mc2",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "mcp-mc7",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 29
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "mcp-fc4",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "mcp-mc5",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "mcp-fc2",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "mcp-mc3",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "mcp-mc8",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 58
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "mcp-mc1",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 58
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "mcp-mc6",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 49
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "mcp-fc3",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "mcp-mc4",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 34
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "mcp-fc1",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 30
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "mcp-mc2",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "mcp-mc7",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "mcp-fc4",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "mcp-mc5",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 73
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "mcp-fc2",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "mcp-mc3",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 73
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "mcp-mc8",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 39
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "mcp-mc1",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "mcp-mc6",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "mcp-fc3",
+    "temaId": "mcp",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "mcp-mc4",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 49
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "mcp-fc1",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "mcp-mc2",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 64
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "mcp-mc7",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 30
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "mcp-fc4",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 45
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "mcp-mc5",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "mcp-fc2",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "mcp-mc3",
+    "temaId": "mcp",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 52
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "mcp-mc8",
+    "temaId": "mcp",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 59
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "claude-code-mc6",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 64
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "claude-code-fc3",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 68
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "claude-code-mc4",
+    "temaId": "claude-code",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 56
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "claude-code-fc1",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "claude-code-mc2",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "claude-code-mc7",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "claude-code-fc4",
+    "temaId": "claude-code",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "claude-code-mc5",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 45
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "claude-code-fc2",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 32
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "claude-code-mc3",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "claude-code-mc8",
+    "temaId": "claude-code",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 39
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "claude-code-mc1",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "claude-code-mc6",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "claude-code-fc3",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 26
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "claude-code-mc4",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "claude-code-fc1",
+    "temaId": "claude-code",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 23
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "claude-code-mc2",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "claude-code-mc7",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "claude-code-fc4",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 39
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "claude-code-mc5",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 70
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "claude-code-fc2",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 25
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "claude-code-mc3",
+    "temaId": "claude-code",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "claude-code-mc8",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "claude-code-mc1",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "claude-code-mc6",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 32
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "claude-code-fc3",
+    "temaId": "claude-code",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "claude-code-mc4",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "claude-code-fc1",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 52
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "claude-code-mc2",
+    "temaId": "claude-code",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 74
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "claude-code-mc7",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 32
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "claude-code-fc4",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "claude-code-mc5",
+    "temaId": "claude-code",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 72
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "claude-code-fc2",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 27
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "claude-code-mc3",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "claude-code-mc8",
+    "temaId": "claude-code",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 59
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "claude-code-mc1",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 73
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "claude-code-mc6",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "claude-code-fc3",
+    "temaId": "claude-code",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 35
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "claude-code-mc4",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 56
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "claude-code-fc1",
+    "temaId": "claude-code",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "agentes-mc7",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "agentes-fc4",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 66
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "agentes-mc5",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "agentes-fc2",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "agentes-mc3",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "agentes-mc8",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 56
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "agentes-mc1",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 38
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "agentes-mc6",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "agentes-fc3",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 55
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "agentes-mc4",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "agentes-fc1",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "agentes-mc2",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "agentes-mc7",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 74
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "agentes-fc4",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "agentes-mc5",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "agentes-fc2",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 22
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "agentes-mc3",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 66
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "agentes-mc8",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 66
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "agentes-mc1",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 64
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "agentes-mc6",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "agentes-fc3",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 37
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "agentes-mc4",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "agentes-fc1",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 71
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "agentes-mc2",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "agentes-mc7",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "agentes-fc4",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "agentes-mc5",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "agentes-fc2",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "agentes-mc3",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 66
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "agentes-mc8",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 36
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "agentes-mc1",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 73
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "agentes-mc6",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 67
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "agentes-fc3",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 52
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "agentes-mc4",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "agentes-fc1",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 67
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "agentes-mc2",
+    "temaId": "agentes",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "agentes-mc7",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "agentes-fc4",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "agentes-mc5",
+    "temaId": "agentes",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 70
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "agentes-fc2",
+    "temaId": "agentes",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "contexto-mc8",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 39
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "contexto-mc1",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 73
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "contexto-mc6",
+    "temaId": "contexto",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 29
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "contexto-fc3",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 46
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "contexto-mc4",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "contexto-fc1",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 69
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "contexto-mc2",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "contexto-mc7",
+    "temaId": "contexto",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 35
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "contexto-fc4",
+    "temaId": "contexto",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 53
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "contexto-mc5",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 34
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "contexto-fc2",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "contexto-mc3",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "contexto-mc8",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 38
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "contexto-mc1",
+    "temaId": "contexto",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 29
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "contexto-mc6",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "contexto-fc3",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "contexto-mc4",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 39
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "contexto-fc1",
+    "temaId": "contexto",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 42
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "contexto-mc2",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 56
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "contexto-mc7",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 72
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "contexto-fc4",
+    "temaId": "contexto",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 74
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "contexto-mc5",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "contexto-fc2",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "contexto-mc3",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "contexto-mc8",
+    "temaId": "contexto",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 32
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "contexto-mc1",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 67
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "contexto-mc6",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "contexto-fc3",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "contexto-mc4",
+    "temaId": "contexto",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 52
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "contexto-fc1",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "contexto-mc2",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 25
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "contexto-mc7",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 73
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "contexto-fc4",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 30
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "contexto-mc5",
+    "temaId": "contexto",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "contexto-fc2",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "contexto-mc3",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 35
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "contexto-mc8",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "contexto-mc1",
+    "temaId": "contexto",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 43
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "contexto-mc6",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 58
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "contexto-fc3",
+    "temaId": "contexto",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "rag-fc1",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 43
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "rag-mc2",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "rag-mc7",
+    "temaId": "rag",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 64
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "rag-fc4",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "rag-mc5",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 47
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "rag-fc2",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 27
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "rag-mc3",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "rag-mc8",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 68
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "rag-mc1",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "rag-mc6",
+    "temaId": "rag",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 57
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "rag-fc3",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 58
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "rag-mc4",
+    "temaId": "rag",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 41
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "rag-fc1",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 43
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "rag-mc2",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "rag-mc7",
+    "temaId": "rag",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 52
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "rag-fc4",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 48
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "rag-mc5",
+    "temaId": "rag",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 28
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "rag-fc2",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "rag-mc3",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 53
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "rag-mc8",
+    "temaId": "rag",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 72
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "rag-mc1",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 72
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "rag-mc6",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 54
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "rag-fc3",
+    "temaId": "rag",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 70
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "rag-mc4",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 60
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "rag-fc1",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 45
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "rag-mc2",
+    "temaId": "rag",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "rag-mc7",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 27
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "rag-fc4",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 30
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "rag-mc5",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 42
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "rag-fc2",
+    "temaId": "rag",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "rag-mc3",
+    "temaId": "rag",
+    "calificacion": "otra_vez",
+    "acierto": true,
+    "tiempoSeg": 31
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "rag-mc8",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 29
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "rag-mc1",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "rag-mc6",
+    "temaId": "rag",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "rag-fc3",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 61
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "rag-mc4",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "rag-fc1",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 52
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "rag-mc2",
+    "temaId": "rag",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 38
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "rag-mc7",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "rag-fc4",
+    "temaId": "rag",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 22
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "seguridad-fc2",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 59
+  },
+  {
+    "fecha": "2026-09-28",
+    "preguntaId": "seguridad-mc3",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 65
+  },
+  {
+    "fecha": "2026-09-29",
+    "preguntaId": "seguridad-mc8",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 71
+  },
+  {
+    "fecha": "2026-09-30",
+    "preguntaId": "seguridad-mc1",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 29
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "seguridad-mc6",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 42
+  },
+  {
+    "fecha": "2026-09-01",
+    "preguntaId": "seguridad-fc3",
+    "temaId": "seguridad",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 49
+  },
+  {
+    "fecha": "2026-09-02",
+    "preguntaId": "seguridad-mc4",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-03",
+    "preguntaId": "seguridad-fc1",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 31
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "seguridad-mc2",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 33
+  },
+  {
+    "fecha": "2026-09-04",
+    "preguntaId": "seguridad-mc7",
+    "temaId": "seguridad",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 68
+  },
+  {
+    "fecha": "2026-09-05",
+    "preguntaId": "seguridad-fc4",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 49
+  },
+  {
+    "fecha": "2026-09-06",
+    "preguntaId": "seguridad-mc5",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 64
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "seguridad-fc2",
+    "temaId": "seguridad",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 76
+  },
+  {
+    "fecha": "2026-09-07",
+    "preguntaId": "seguridad-mc3",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-08",
+    "preguntaId": "seguridad-mc8",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-09",
+    "preguntaId": "seguridad-mc1",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 50
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "seguridad-mc6",
+    "temaId": "seguridad",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 26
+  },
+  {
+    "fecha": "2026-09-10",
+    "preguntaId": "seguridad-fc3",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 32
+  },
+  {
+    "fecha": "2026-09-11",
+    "preguntaId": "seguridad-mc4",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 71
+  },
+  {
+    "fecha": "2026-09-12",
+    "preguntaId": "seguridad-fc1",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 76
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "seguridad-mc2",
+    "temaId": "seguridad",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-13",
+    "preguntaId": "seguridad-mc7",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-14",
+    "preguntaId": "seguridad-fc4",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 32
+  },
+  {
+    "fecha": "2026-09-15",
+    "preguntaId": "seguridad-mc5",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 46
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "seguridad-fc2",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 69
+  },
+  {
+    "fecha": "2026-09-16",
+    "preguntaId": "seguridad-mc3",
+    "temaId": "seguridad",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-17",
+    "preguntaId": "seguridad-mc8",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 64
+  },
+  {
+    "fecha": "2026-09-18",
+    "preguntaId": "seguridad-mc1",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 25
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "seguridad-mc6",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 45
+  },
+  {
+    "fecha": "2026-09-19",
+    "preguntaId": "seguridad-fc3",
+    "temaId": "seguridad",
+    "calificacion": "otra_vez",
+    "acierto": false,
+    "tiempoSeg": 51
+  },
+  {
+    "fecha": "2026-09-20",
+    "preguntaId": "seguridad-mc4",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 62
+  },
+  {
+    "fecha": "2026-09-21",
+    "preguntaId": "seguridad-fc1",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 24
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "seguridad-mc2",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 40
+  },
+  {
+    "fecha": "2026-09-22",
+    "preguntaId": "seguridad-mc7",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-23",
+    "preguntaId": "seguridad-fc4",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 69
+  },
+  {
+    "fecha": "2026-09-24",
+    "preguntaId": "seguridad-mc5",
+    "temaId": "seguridad",
+    "calificacion": "dificil",
+    "acierto": false,
+    "tiempoSeg": 63
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "seguridad-fc2",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 44
+  },
+  {
+    "fecha": "2026-09-25",
+    "preguntaId": "seguridad-mc3",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 70
+  },
+  {
+    "fecha": "2026-09-26",
+    "preguntaId": "seguridad-mc8",
+    "temaId": "seguridad",
+    "calificacion": "bien",
+    "acierto": true,
+    "tiempoSeg": 75
+  },
+  {
+    "fecha": "2026-09-27",
+    "preguntaId": "seguridad-mc1",
+    "temaId": "seguridad",
+    "calificacion": "dificil",
+    "acierto": true,
+    "tiempoSeg": 37
+  }
+]
