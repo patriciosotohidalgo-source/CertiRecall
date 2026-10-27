@@ -1,86 +1,86 @@
-# CertiRecall
+# CertiRecall v2
 
-**CertiRecall** es una aplicación web de estudio para prepararse en fundamentos de Claude mediante recuerdo activo y repetición espaciada. Es un proyecto estático, funcional y publicable en GitHub Pages.
+Aplicación de estudio tipo Anki para la certificación de Claude: **recuerdo activo** + **repetición espaciada** (SM-2 simplificado), con un reporte que muestra qué temas cuestan más.
 
-## Problemática y usuario objetivo
+Novedades de la v2 respecto de la v1 (rama `main`):
 
-Leer o ver videos de forma pasiva no siempre permite recordar lo aprendido días después ni detectar los temas que necesitan refuerzo. CertiRecall está dirigida a estudiantes y profesionales con 15–20 minutos diarios que quieren organizar su repaso de API, prompting, herramientas, MCP, agentes y conceptos relacionados.
+- **Estudia desde cualquier dispositivo**: con una cuenta (enlace por correo o Google), el progreso se sincroniza entre celular, laptop y tablet.
+- **Funciona sin conexión**: es una PWA instalable; se estudia offline y se sincroniza al volver la conexión.
+- **Multidioma**: interfaz y temario en español e inglés. El progreso es el mismo en ambos idiomas.
+- **Sin pérdida de datos**: el progreso guardado por la v1 en el navegador se migra automáticamente.
 
-## Objetivo
+## Arquitectura
 
-Convertir un plan breve de estudio en sesiones de preguntas y repasos programados, para que cada persona practique recuperar la información y distribuya mejor su esfuerzo.
-
-## Funcionalidades
-
-- Plan de 10 días con lecciones ampliadas, glosario, ejemplos, errores comunes, fuentes oficiales y 12 preguntas por tema.
-- Cuestionario de opción múltiple y flashcards con explicación y calificación de recuerdo.
-- Opciones mezcladas de forma estable durante cada pregunta, con retroalimentación visual de la respuesta correcta e incorrecta.
-- Repetición espaciada por tarjeta, preguntas marcadas para revisar, modo de preguntas difíciles y resumen de sesión.
-- Fecha simulada para avanzar días y observar repasos vencidos.
-- Inicio con avance, racha, pendientes y mapa de actividad de 30 días.
-- Reporte con datos simulados o actividad propia, ranking de dificultad, gráficos SVG/CSS, tabla y preguntas falladas agrupadas por enunciado.
-- Glosario buscable y simulacro de hasta 20 preguntas con temporizador y resultado por tema. El simulacro no altera el planificador.
-- Ajustes de preguntas diarias, exportación e importación JSON y reinicio confirmado.
-- Persistencia local en `localStorage`, diseño adaptable y soporte de modo oscuro del sistema.
-
-Las vistas se abren con las rutas `#inicio`, `#estudiar`, `#quiz`, `#reporte`, `#ajustes`, `#glosario` y `#simulacro`.
-
-## Recuerdo activo y repetición espaciada
-
-El **recuerdo activo** consiste en intentar recuperar una idea antes de consultar la respuesta. Después, la persona califica la dificultad. La repetición espaciada programa el siguiente intento según esa calificación, favoreciendo volver a una tarjeta cuando conviene reforzarla.
-
-El planificador es una simplificación inspirada en SM-2: la facilidad empieza en 2.5; «Otra vez» vuelve a la cola de la sesión y programa un día, «Difícil» aplica un factor de 1.2 y reduce la facilidad, «Bien» usa intervalos iniciales de 1 y 3 días y después multiplica por la facilidad, y «Fácil» añade un factor de 1.3 y aumenta la facilidad. Es una demostración educativa, no una implementación completa de Anki.
-
-## Tecnologías
-
-HTML5, CSS3 y JavaScript vanilla con módulos ES. Los datos de contenido e historial de demostración están en JSON. No se usan frameworks, dependencias, servicios externos ni backend.
-
-## Estructura
+| Capa | Tecnología | Rol |
+|---|---|---|
+| Frontend | Vite + React + TypeScript | Interfaz; se publica como sitio estático en GitHub Pages |
+| Datos locales | IndexedDB (Dexie) | Fuente de verdad en el dispositivo; permite estudiar offline |
+| Nube | Supabase (PostgreSQL + Auth + RLS) | Cuentas y sincronización entre dispositivos |
+| Idiomas | i18next | Textos de la interfaz; el temario va en un JSON por idioma |
+| Offline | vite-plugin-pwa (Workbox) | Guarda en caché la app y el temario |
+| Pruebas | Vitest + PGlite | Lógica, sincronización y el SQL real de Supabase |
 
 ```text
-CertiRecall/
-├── index.html
-├── css/styles.css
-├── data/
-│   ├── temario.json
-│   └── historial-demo.json
-├── js/
-│   ├── app.js
-│   ├── data.js
-│   ├── quiz.js
-│   ├── report.js      # cálculo y presentación de reportes
-│   ├── scheduler.js
-│   ├── storage.js
-│   └── ui.js          # vistas y componentes visuales
-└── README.md
+src/
+├── domain/        # lógica pura y probada: scheduler (SM-2), colas, reporte, fechas
+├── data/          # content (temario por idioma), localDb (Dexie), sync, remote (Supabase), legacy (migración v1)
+├── state/         # progress.tsx (estado global y acciones), ui.tsx (avisos y confirmaciones)
+├── features/      # páginas: inicio, lección, cuestionario, reporte, glosario, simulacro, ajustes
+├── components/    # layout y gráficos
+└── i18n/          # configuración y textos (es.json, en.json)
+public/content/
+├── es/temario.json, en/temario.json   # mismo contenido, mismos IDs de pregunta
+└── historial-demo.json                # datos simulados para el reporte de demostración
+supabase/migrations/001_init.sql       # tablas, seguridad por fila y funciones de sincronización
 ```
 
-`temario.json` contiene `certificacion` y `dias`; cada día declara su número, tema, lección y preguntas. La lección puede incluir conceptos, ejemplo, errores comunes y fuentes. Cada pregunta tiene un identificador único y un nivel de dificultad; las preguntas de opción múltiple incluyen opciones y respuesta correcta, y las flashcards incluyen respuesta y explicación. `historial-demo.json` es una lista de unos 470 eventos ficticios durante 30 días con `fecha`, `preguntaId`, `temaId`, `calificacion`, `acierto` y `tiempoSeg`. Usa preguntas que existen en el temario y simula un estudio realista: cada tema se desbloquea en orden, los temas más antiguos acumulan más repasos y el acierto mejora con el tiempo. Tool use, MCP y Agentes se diseñaron con mayor dificultad para ilustrar cómo el reporte detecta los temas que requieren refuerzo.
+### Decisiones clave
 
-Por defecto se presentan 12 preguntas nuevas por día (una lección completa). El cupo es diario y, si quedan preguntas sin ver de días anteriores, se incorporan después de las del día actual.
+- **El contenido no está en la base de datos.** Las lecciones y preguntas son JSON estáticos por idioma, versionados en el repositorio. La base solo guarda el progreso.
+- **Los IDs de pregunta son iguales en todos los idiomas** (`tool-use-mc3`). Por eso el progreso no depende del idioma. `npm run check:content` y las pruebas lo verifican.
+- **Local-first.** Cada calificación se guarda primero en IndexedDB y queda pendiente de subir. La sincronización:
+  - **Repasos** (`review_logs`): solo se agregan, con un UUID generado en el dispositivo. Reenviarlos no los duplica.
+  - **Tarjetas y perfil**: gana la última escritura (`updated_at`). Lo resuelve el propio servidor con `upsert_card_states` / `upsert_profile`.
+  - **Descarga**: trae lo que cambió desde la última vez, según el reloj del servidor (`server_updated_at`).
+- **Seguridad.** La clave `anon` de Supabase es pública por diseño. La protección real son las políticas RLS: cada usuario solo puede leer y escribir sus propias filas.
+- **Modo invitado.** Sin cuenta, o sin Supabase configurado, la app funciona igual con datos locales. Al iniciar sesión, lo estudiado como invitado se sube a la cuenta.
 
-La respuesta correcta aparece dos veces en cada posición (A, B, C y D) por tema en el JSON. Durante una sesión, las opciones se mezclan una sola vez y conservan el orden mientras se muestra la retroalimentación.
+## Ejecutar en local
 
-## Ejecución local
+```bash
+npm install
+npm run dev          # http://localhost:5173
+npm test             # pruebas (dominio, sincronización, migración, SQL con PGlite)
+npm run check:content
+npm run build && npm run preview
+```
 
-1. Abre esta carpeta en Visual Studio Code.
-2. Instala/activa la extensión **Live Server** y ejecuta «Open with Live Server» sobre `index.html`.
-3. No abras el archivo mediante doble clic: `fetch()` necesita un servidor HTTP para cargar los JSON. La aplicación mostrará esta indicación si detecta `file://`.
+## Activar la sincronización (Supabase)
 
-## Publicación en GitHub Pages
+1. Crea un proyecto gratuito en [supabase.com](https://supabase.com).
+2. En **SQL Editor**, ejecuta `supabase/migrations/001_init.sql`.
+3. En **Authentication → URL Configuration**, agrega como *Redirect URL* la dirección de la app (p. ej. `http://localhost:5173/` y `https://<usuario>.github.io/CertiRecall/`).
+4. Opcional: en **Authentication → Providers**, activa Google para el botón "Continuar con Google".
+5. Copia `.env.example` a `.env.local` y completa `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY` (**Project Settings → API**).
 
-Publica la carpeta en la rama configurada para GitHub Pages y selecciona la raíz del repositorio como origen. Al ser un sitio estático sin build, `index.html` se sirve directamente.
+Sin el paso 5 la app funciona en modo invitado.
 
-**URL de GitHub Pages:** https://patriciosotohidalgo-source.github.io/CertiRecall/
+## Publicar en GitHub Pages
 
-> El temario es de ejemplo, no oficial. El reporte de demostración usa datos simulados con fines ilustrativos; revisa el contenido antes de usarlo como material de certificación.
+El workflow `.github/workflows/deploy.yml` valida el contenido, ejecuta las pruebas, compila y publica en cada push a `main`.
 
-## Uso de GitHub Copilot
+1. **Settings → Pages → Source: GitHub Actions.** Esto reemplaza la publicación de la v1 "desde la rama"; hazlo solo cuando quieras pasar a la v2.
+2. **Settings → Secrets and variables → Actions:** agrega `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY`.
 
-Completa esta plantilla con la experiencia real del equipo antes de entregar:
+## Agregar un idioma
 
-- **Modelo utilizado:** [indicar modelo mostrado por la herramienta]
-- **Tareas en las que ayudó:** [estructura, implementación, revisión, documentación, pruebas, etc.]
-- **Sugerencias aceptadas:** [qué se aceptó y por qué]
-- **Sugerencias modificadas:** [qué se adaptó y por qué]
-- **Sugerencias rechazadas:** [qué se descartó y por qué]
+1. Copia `src/i18n/locales/en.json` a `<idioma>.json`, tradúcelo y regístralo en `src/i18n/index.ts`.
+2. Crea `public/content/<idioma>/temario.json` con **los mismos IDs**. Lo que falte se muestra en español, marcado como "Sin traducir".
+3. Agrega el código del idioma a `LOCALES` en `src/data/content.ts`.
+4. Ejecuta `npm run check:content`.
+
+## Limitaciones conocidas
+
+- Reiniciar el progreso borra los datos en la cuenta y en el dispositivo actual. Otro dispositivo que ya los había descargado los conserva hasta que reinicie también.
+- Si el mismo tema se estudia a la vez en dos dispositivos sin conexión, la tarjeta queda con la última calificación. Los repasos de ambos dispositivos se conservan en el reporte.
+- El temario es de ejemplo, no oficial. La traducción al inglés debe revisarla una persona.

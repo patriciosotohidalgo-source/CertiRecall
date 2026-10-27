@@ -11,3 +11,18 @@
 .line-chart{height:auto;aspect-ratio:330/112}
 .line-chart polyline{stroke-width:2.2;stroke-linejoin:round}
 .line-chart text{font-size:8px;fill:var(--muted)}
+
+/* ===== v2: cuenta, sincronización e idioma ===== */
+.account-card{padding:20px;margin-bottom:13px}
+.account-card h3{font-size:14px;margin:13px 0 4px}
+.account-card p{font-size:11px;color:var(--muted);margin:0 0 12px}
+.account-card .date-actions{justify-content:flex-start}
+.account-form{display:flex;flex-wrap:wrap;align-items:flex-end;gap:8px;margin-bottom:10px}
+.account-form label{width:100%;font-size:10px;color:var(--muted)}
+.account-form input{flex:1;min-width:200px;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--ink);padding:10px 12px}
+.account-sent{background:#e8f5eb;color:#286d41 !important;border-radius:10px;padding:10px 12px}
+.sync-syncing .dot{background:var(--amber)}
+.sync-offline .dot,.sync-guest .dot{background:#9b9ba0}
+.sync-error .dot{background:var(--red)}
+.untranslated{display:inline-block;font-size:8px;letter-spacing:.4px;border-radius:20px;padding:3px 8px;background:#f5f0e5;color:#96763e;margin-left:6px}
+@media(prefers-color-scheme:dark){.account-sent{background:#26352c;color:#a8d4b2 !important}.untranslated{background:#3a3325;color:#d2b777}}
