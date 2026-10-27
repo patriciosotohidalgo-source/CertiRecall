@@ -126,5 +126,15 @@ language sql security invoker as $$
   where profiles.updated_at < excluded.updated_at;
 $$;
 
+-- ============ Permisos de la API ============
+-- Explícitos para no depender de "Exponer automáticamente nuevas tablas" (recomendado desactivarla).
+-- Solo usuarios con sesión; el rol anon no recibe nada. RLS sigue filtrando las filas.
+
+grant select, insert, update         on public.profiles    to authenticated;
+grant select, insert, update, delete on public.card_states to authenticated;
+grant select, insert, delete         on public.review_logs to authenticated;
+
+-- Las funciones nacen ejecutables por PUBLIC: se limitan a usuarios con sesión.
+revoke execute on function public.upsert_card_states(jsonb), public.upsert_profile(jsonb) from public, anon;
 grant execute on function public.upsert_card_states(jsonb) to authenticated;
 grant execute on function public.upsert_profile(jsonb) to authenticated;

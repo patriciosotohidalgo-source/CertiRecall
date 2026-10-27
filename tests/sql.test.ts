@@ -7,20 +7,21 @@ const A = '00000000-0000-0000-0000-00000000000a';
 const B = '00000000-0000-0000-0000-00000000000b';
 let pg: PGlite;
 
-// Reproduce lo mínimo que Supabase trae de fábrica: esquema auth, auth.uid() y el rol authenticated.
+// Reproduce lo mínimo que Supabase trae de fábrica: esquema auth, auth.uid() y los roles de la API.
+// Sin privilegios por defecto sobre tablas nuevas, como con "Exponer automáticamente nuevas tablas" desactivado.
 const SUPABASE_STUB = `
   create schema auth;
   create table auth.users (id uuid primary key);
   create function auth.uid() returns uuid language sql stable as
     $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
   create role authenticated nologin;
-  grant usage on schema public, auth to authenticated;
-  alter default privileges in schema public grant select, insert, update, delete on tables to authenticated;
+  create role anon nologin;
+  grant usage on schema public, auth to authenticated, anon;
   insert into auth.users values ('${A}'), ('${B}');
 `;
 
-async function como<T>(usuario: string, consulta: (db: PGlite) => Promise<T>): Promise<T> {
-  await pg.exec(`set role authenticated; select set_config('request.jwt.claim.sub', '${usuario}', false);`);
+async function como<T>(usuario: string, consulta: (db: PGlite) => Promise<T>, rol = 'authenticated'): Promise<T> {
+  await pg.exec(`set role ${rol}; select set_config('request.jwt.claim.sub', '${usuario}', false);`);
   try { return await consulta(pg); } finally { await pg.exec('reset role;'); }
 }
 
@@ -82,5 +83,11 @@ describe('migración SQL de Supabase', () => {
     await como(A, db => db.query('select upsert_card_states($1::jsonb)', [card('2026-11-01T12:00:00Z', 9)]));
     const despues = await como(A, db => db.query<{ s: string }>('select server_updated_at as s from card_states'));
     expect(new Date(despues.rows[0].s).getTime()).toBeGreaterThan(new Date(antes.rows[0].s).getTime());
+  });
+
+  it('el rol anon no puede leer tablas ni llamar a las funciones', async () => {
+    await expect(como('', db => db.query('select * from card_states'), 'anon')).rejects.toThrow(/permission denied/);
+    await expect(como('', db => db.query('select upsert_card_states($1::jsonb)', [card('2026-11-01T10:00:00Z', 1)]), 'anon'))
+      .rejects.toThrow(/permission denied/);
   });
 });

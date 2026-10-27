@@ -57,7 +57,7 @@ npm run build && npm run preview
 
 ## Activar la sincronización (Supabase)
 
-1. Crea un proyecto gratuito en [supabase.com](https://supabase.com).
+1. Crea un proyecto gratuito en [supabase.com](https://supabase.com). En **Seguridad**, deja activada la *API de datos* y desactiva *Exponer automáticamente nuevas tablas*: la migración otorga los permisos que necesita y activa RLS en cada tabla.
 2. En **SQL Editor**, ejecuta `supabase/migrations/001_init.sql`.
 3. En **Authentication → URL Configuration**, agrega como *Redirect URL* la dirección de la app (p. ej. `http://localhost:5173/` y `https://<usuario>.github.io/CertiRecall/`).
 4. Opcional: en **Authentication → Providers**, activa Google para el botón "Continuar con Google".
